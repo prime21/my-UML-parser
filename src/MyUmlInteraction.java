@@ -74,10 +74,10 @@ public class MyUmlInteraction implements UmlInteraction {
                 else if (nxt instanceof UmlClassNode) {
                     ((UmlClassNode) nxt).getFainter().addAll(
                         ((UmlItfNode) now).getSsint());
-                    ((UmlClassNode) nxt).getFaassoclass().
-                        addAll(((UmlItfNode)now).getAsso());
-                    ((UmlClassNode) nxt).getFaassoclass().
-                        addAll(((UmlItfNode)now).getFaasso());
+                    //((UmlClassNode) nxt).getFaassoclass().
+                    //    addAll(((UmlItfNode)now).getAsso());
+                    //((UmlClassNode) nxt).getFaassoclass().
+                    //    addAll(((UmlItfNode)now).getFaasso());
                     ((UmlClassNode) nxt).incVisit();
                     /*
                     if (((UmlClassNode) nxt).getVisit()

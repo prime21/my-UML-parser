@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="unnamed" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5f7156f0-6595-44b5-a449-45df3bd6da62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyUmlInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyUmlInteraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NodePool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NodePool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UmlUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UmlUpdate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyUmlInteraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="222">
+              <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#checkisclass#0;class#MyUmlInteraction#0" />
@@ -34,54 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UmlItfNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
-                <element signature="e#1134#1135#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
-                <element signature="e#1285#1286#0" expanded="true" />
-                <element signature="e#1313#1314#0" expanded="true" />
-                <element signature="e#1353#1354#0" expanded="true" />
-                <element signature="e#1381#1382#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NodePool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/UmlUpdate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UmlClassNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1066">
-              <caret line="328" column="13" selection-start-line="328" selection-start-column="13" selection-end-line="328" selection-end-column="13" />
+            <state relative-caret-position="222">
+              <caret line="313" lean-forward="true" selection-start-line="313" selection-end-line="313" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1587#2043#0" />
@@ -94,15 +59,18 @@
                 <element signature="e#5261#5307#1" />
                 <element signature="e#5321#5382#1" />
                 <element signature="e#5394#5717#0" />
-                <element signature="e#5916#5928#0" expanded="true" />
-                <element signature="e#6396#6405#0" expanded="true" />
-                <element signature="e#6414#7716#0" />
-                <element signature="e#6594#7116#1" />
-                <element signature="e#7722#9553#0" />
-                <element signature="e#7939#8217#1" />
-                <element signature="e#8111#8207#1" />
-                <element signature="e#9836#9903#1" />
-                <element signature="e#10134#10142#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UmlUpdate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,13 +93,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/NodePool.java" />
         <option value="$PROJECT_DIR$/src/Idmap.java" />
         <option value="$PROJECT_DIR$/src/UmlOptNode.java" />
         <option value="$PROJECT_DIR$/src/UmlTreeNode.java" />
         <option value="$PROJECT_DIR$/src/UmlItfNode.java" />
-        <option value="$PROJECT_DIR$/src/MyUmlInteraction.java" />
         <option value="$PROJECT_DIR$/src/UmlClassNode.java" />
+        <option value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/src/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/src/NodePool.java" />
+        <option value="$PROJECT_DIR$/src/MyUmlInteraction.java" />
         <option value="$PROJECT_DIR$/src/UmlUpdate.java" />
       </list>
     </option>
@@ -147,7 +117,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,18 +138,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559459092029" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../OO-guide-2019/codestyle-guide/config.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559468047725" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/MANIFEST.MF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
   </component>
@@ -196,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="hw_10" />
@@ -204,9 +174,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="unnamed.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/unnamed/unnamed.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.unnamed.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -240,16 +215,29 @@
       <workItem from="1559438795729" duration="3734000" />
       <workItem from="1559442819473" duration="370000" />
       <workItem from="1559454540445" duration="3771000" />
+      <workItem from="1559459462797" duration="31000" />
+      <workItem from="1559459571100" duration="641000" />
+      <workItem from="1559460936393" duration="601000" />
+      <workItem from="1559467340663" duration="723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53896000" />
+    <option name="totallyTimeSpent" value="55892000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16720085" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17574786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -262,18 +250,18 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915073" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32908705" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32908705" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="9" />
-      <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.3195329" />
+      <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.31885594" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Regex Tester" order="12" />
       <window_info anchor="bottom" id="JProfiler" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.32908705" />
-      <window_info anchor="bottom" id="Messages" order="17" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.32908705" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
@@ -284,42 +272,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16720085" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32908705" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32908705" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Sequence" order="9" />
-      <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.3195329" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Regex Tester" order="12" />
-      <window_info anchor="bottom" id="JProfiler" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.32908705" />
-      <window_info anchor="bottom" id="Messages" order="17" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -390,13 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/HashMap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -450,46 +395,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UmlClassNode.java">
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+    <entry file="file://$PROJECT_DIR$/src/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="328" column="13" selection-start-line="328" selection-start-column="13" selection-end-line="328" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1587#2043#0" />
-            <element signature="e#2434#2435#0" expanded="true" />
-            <element signature="e#2466#2467#0" expanded="true" />
-            <element signature="e#2717#3526#0" />
-            <element signature="e#3759#4555#0" />
-            <element signature="e#3869#4549#0" />
-            <element signature="e#4822#5388#0" />
-            <element signature="e#5261#5307#1" />
-            <element signature="e#5321#5382#1" />
-            <element signature="e#5394#5717#0" />
-            <element signature="e#5916#5928#0" expanded="true" />
-            <element signature="e#6396#6405#0" expanded="true" />
-            <element signature="e#6414#7716#0" />
-            <element signature="e#6594#7116#1" />
-            <element signature="e#7722#9553#0" />
-            <element signature="e#7939#8217#1" />
-            <element signature="e#8111#8207#1" />
-            <element signature="e#9836#9903#1" />
-            <element signature="e#10134#10142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NodePool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="23">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UmlItfNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="521">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#745#746#0" expanded="true" />
@@ -506,10 +423,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/NodePool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyUmlInteraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="222">
+          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#checkisclass#0;class#MyUmlInteraction#0" />
@@ -527,10 +462,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UmlUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="360">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UmlClassNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="313" lean-forward="true" selection-start-line="313" selection-end-line="313" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1587#2043#0" />
+            <element signature="e#2434#2435#0" expanded="true" />
+            <element signature="e#2466#2467#0" expanded="true" />
+            <element signature="e#2717#3526#0" />
+            <element signature="e#3759#4555#0" />
+            <element signature="e#3869#4549#0" />
+            <element signature="e#4822#5388#0" />
+            <element signature="e#5261#5307#1" />
+            <element signature="e#5321#5382#1" />
+            <element signature="e#5394#5717#0" />
           </folding>
         </state>
       </provider>
@@ -541,10 +496,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

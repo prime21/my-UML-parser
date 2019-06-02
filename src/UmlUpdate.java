@@ -35,7 +35,7 @@ public class UmlUpdate {
             ((UmlAssociationEnd)e2.getElm()).getReference()
         ));
 
-        //System.out.println(e1.getType() + " " + e2.getType());
+        //System.out.println(e1.getElm().getName() + " " + e2.getElm().getName());
 
         if (e1.getType().equals(ElementType.UML_CLASS)) {
             ((UmlClassNode) e1).add(e2);

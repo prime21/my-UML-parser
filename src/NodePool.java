@@ -13,7 +13,9 @@ public class NodePool {
         return nds.get(index);
     }
 
-    private NodePool() { nds = new ArrayList<UmlTreeNode>(300); }
+    private NodePool() {
+        nds = new ArrayList<UmlTreeNode>(300);
+    }
 
     public static NodePool getInstance() {
         if (instance == null) {
