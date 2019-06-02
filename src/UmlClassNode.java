@@ -203,18 +203,22 @@ public class UmlClassNode extends UmlTreeNode {
     }
 
     public List<String> getassocls() {
-        ArrayList<String> ret = new ArrayList<>(150);
+        HashSet<UmlElement> ret = new HashSet<UmlElement>(150);
         for (int i = 0; i < assoclass.size(); i++) {
             if (assoclass.get(i).getType().equals(ElementType.UML_CLASS)) {
-                ret.add(assoclass.get(i).getElm().getName());
+                ret.add(assoclass.get(i).getElm());
             }
         }
         for (int i = 0; i < faassoclass.size(); i++) {
             if (faassoclass.get(i).getType().equals(ElementType.UML_CLASS)) {
-                ret.add(faassoclass.get(i).getElm().getName());
+                ret.add(faassoclass.get(i).getElm());
             }
         }
-        return new ArrayList<String>(new HashSet<String>(ret));
+        ArrayList<String> val = new ArrayList<String>(150);
+        for (UmlElement e: ret) {
+            val.add(e.getName());
+        }
+        return val;
     }
 
     public Map<Visibility,Integer> opvis(String mtdnm) {
@@ -313,16 +317,22 @@ public class UmlClassNode extends UmlTreeNode {
     }
 
     public List<String> getintcls() {
-        ArrayList<String> ret = new ArrayList<>(150);
+        ArrayList<UmlElement> ret = new ArrayList<>(150);
 
         for (int i = 0; i < fainter.size(); i++) {
-            ret.add(fainter.get(i).getElm().getName());
+            ret.add(fainter.get(i).getElm());
         }
         for (int i = 0; i < inter.size(); i++) {
-            ret.add(inter.get(i).getElm().getName());
+            ret.add(inter.get(i).getElm());
         }
 
-        return new ArrayList<String>(new HashSet<String>(ret));
+        ret = new ArrayList<UmlElement>(new HashSet<UmlElement>(ret));
+
+        ArrayList<String> val = new ArrayList<String>(150);
+        for (int i = 0; i < ret.size(); i++) {
+            val.add(ret.get(i).getName());
+        }
+        return val;
     }
 
     public List<AttributeClassInformation> getnotpri() {
