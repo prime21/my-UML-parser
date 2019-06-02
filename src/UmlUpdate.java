@@ -78,7 +78,7 @@ public class UmlUpdate {
         }
         else {
             ((UmlItfNode)e1).addup(e2);
-            ((UmlItfNode)e2).addup(e1);
+            ((UmlItfNode)e2).adddn(e1);
         }
     }
 
